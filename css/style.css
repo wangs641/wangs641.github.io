@@ -1,0 +1,50 @@
+/*.para{
+	color: grey;
+}
+
+.col-sm-4{
+	color:grey;
+}
+.t1{
+	color:red;
+}
+.youtube{
+	position: absolute;
+  left: 500px;
+  top: 500px;
+}
+.footer{
+	margin:20px;
+}
+
+.container{
+	position:relative;
+	margin-top:40px;
+}*/
+body{
+    margin: 0;
+    background:white;
+    font-family:courier;
+}
+form{
+    width:45%;
+    display: inline-block;
+    padding: 2% 5%;
+    background:whitesmoke;
+    vertical-align: top;
+}
+input, select{
+    margin:15px 0;
+}
+input[type=text]{
+    width:100%;
+}
+input[type=password]{
+    width:100%;
+}
+#response{
+    width: 43%;
+    display: inline-block;
+    background: bisque;
+    vertical-align: top;
+}

@@ -1,0 +1,26 @@
+.para{
+	color: grey;
+}
+
+.col-sm-4{
+	color:grey;
+}
+.t1{
+	color:red;
+}
+.youtube{
+	position: absolute;
+  left: 500px;
+  top: 500px;
+}
+.footer{
+	margin:20px;
+}
+
+.videoDog{
+	margin-top:30px;
+}
+.container{
+	position:relative;
+	margin-top:40px;
+}

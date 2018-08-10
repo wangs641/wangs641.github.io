@@ -1,0 +1,171 @@
+	header{
+		position:fixed;
+		top:20;
+		z-index: 10;
+		
+	}
+
+
+
+	ul{
+		list-style: none;;
+		text-align: right;
+		padding-right: 30px;
+		color:red;
+	}
+
+	li{
+		padding-bottom: 1px;
+
+
+	}
+	.photoPart{
+		margin-left: 16vw;
+		width: 50%;
+	    margin-left: 300px;
+	    margin-top: 50px;
+	}
+
+	header{
+		right:80px;
+		top:30px;
+	}
+
+	.leftbar{
+		position: fixed;
+		
+		z-index: 11;
+		padding-top: 100px;
+		padding-left: 100px;
+		width:16vw;
+		height: :100vh;
+		background-color:white;
+		height: 100vh;
+
+
+	}
+	a{
+color: red;
+}
+
+	.container{
+		bottom: 0;
+	}
+	.introName{
+
+		    font-size: 33px;
+		    color:red;
+
+	   
+	  font-family: 'Monoton', cursive;
+	}
+	.pageOne{
+		    width: 35vw;
+    margin-left: 259px;
+        margin-top: 164px;
+	}
+		.pageTwo{
+
+			width:20vw;
+			grid-column: 1/2;
+			grid-row: 1;
+			    margin-top: 80px;
+			        margin-left: 62px;
+		}
+		.pageThree{
+
+			width:20vw;
+			grid-column: 2/3;
+			grid-row: 2;
+		}
+		.pageFour{
+
+			width:20vw;
+			grid-column: 1/2;
+			grid-row: 3;
+			    margin-left: 61px;
+		}
+		.pageFive{
+
+			width:20vw;
+			grid-column: 2/3;
+			grid-row: 4;
+		}
+		.content1{
+			  display: grid;
+			  grid-column-gap: 80px;
+			  grid-row-gap: 280px;
+	    
+	    grid-template-columns: repeat(2, 1fr);
+	    grid-template-rows: 100px 100px 100px	100px;
+		}
+		.pOne{
+			grid-column: 2/3;
+			grid-row:1;
+			    margin-top: 113px;
+			    margin-left:80px;
+		}
+		.pTwo{
+			grid-column: 1/2;
+			grid-row:2;
+			margin-left: 127px;
+    margin-top: 50px;
+		}
+		.pThree{
+			grid-column: 2/3;
+			grid-row:3;
+			    margin-top: 30px;
+    margin-left: 66px;
+		}
+		.pFour{
+			grid-column: 1/2;
+			grid-row:4;
+			margin-left: 139px;
+			margin-top: 40px;
+		}
+
+.introInfo{
+	margin-left: 16vw;
+	margin-top: 17vh;
+}
+.content1{
+	margin-left: 9vw;
+}
+.row{
+	    margin-top: 170px;
+}
+
+.introName1{
+	font-family: 'Philosopher', sans-serif;
+}
+
+.headerName{
+	font-family: 'Philosopher', sans-serif;
+}
+
+
+
+
+
+ 
+ .photo1{width: 80vw;
+    margin-left: 15vw;
+     margin-top: 12vh;
+
+
+ }
+ .photo2{width: 80vw;
+    margin-left: 15vw;
+     margin-top: 12vh;
+
+ }
+ .photo3{
+width: 80vw;
+    margin-left: 15vw;
+ }
+
+
+
+
+
+
