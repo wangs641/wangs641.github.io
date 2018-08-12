@@ -165,7 +165,20 @@ width: 80vw;
  }
 
 
+.headerName{
+width:12vw;
+  background: #ff000000;
+  padding: 8px;
+  transition: width 2s, height 2s, transform 2s;
+}
 
+.headerName:hover{
+	width: 18vw;
+
+  padding: 40px;
+  transform: matrix(1, -0.3, 0, 1, 0, 0);
+
+}
 
 
 

@@ -148,9 +148,9 @@ color: red;
 
 
  
- .photo1{width: 70vw;
-    margin-left: 15vw;
-     margin-top: 12vh;
+ .photo1{width: 59vw;
+    margin-left: 25vw;
+    margin-top: 12vh;
 
  }
  .photo2{width: 70vw;
@@ -162,7 +162,20 @@ color: red;
 width: 70vw;
     margin-left: 15vw;
  }
+.headerName{
+width:12vw;
+  background: #ff000000;
+  padding: 8px;
+  transition: width 2s, height 2s, transform 2s;
+}
 
+.headerName:hover{
+	width: 18vw;
+
+  padding: 40px;
+  transform: matrix(1, -0.3, 0, 1, 0, 0);
+
+}
 
 
 
