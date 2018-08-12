@@ -152,15 +152,53 @@ color: red;
     margin-left: 25vw;
     margin-top: 12vh;
 
+
  }
  .photo2{width: 70vw;
     margin-left: 15vw;
      margin-top: 12vh;
+        display: none;
 
  }
  .photo3{
 width: 70vw;
+    margin-left: 15vw;  display: none;
+ }
+ .photo4{
+width: 70vw;
+    margin-left: 15vw;  display: none;
+ }
+ .photo5{
+width: 70vw;
+    margin-left: 15vw;  display: none;
+ }
+ .photo6{
+width: 70vw;
+    margin-left: 15vw;  display: none;
+ }
+ .photo7{
+width: 70vw;
+    margin-left: 15vw;  display: none;
+ }
+ .photo8{
+width: 70vw;
+    margin-left: 15vw;  display: none;
+ }
+ .photo9{
+width: 70vw;  display: none;
     margin-left: 15vw;
+ }
+ .photo10{
+width: 70vw;
+    margin-left: 15vw;  display: none;
+ }
+ .photo11{
+width: 70vw;
+    margin-left: 15vw;  display: none;
+ }
+ .photo12{
+width: 70vw;
+    margin-left: 15vw;  display: none;
  }
 .headerName{
 width:12vw;

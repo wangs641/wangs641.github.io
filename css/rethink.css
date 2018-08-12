@@ -57,6 +57,7 @@
 	  font-family: 'Monoton', cursive;
 	}
 	.pageOne{
+		    display: none !important;
 		    width: 35vw;
     margin-left: 259px;
         margin-top: 164px;
