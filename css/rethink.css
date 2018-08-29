@@ -27,15 +27,15 @@
 	}
 
 	header{
-		right:80px;
-		top:30px;
+		    right: 1vw;
+    top: 1vh;
 	}
 
 	.leftbar{
 		position: fixed;
 		
 		z-index: 11;
-		padding-top: 100px;
+		padding-top: 24px;
 		padding-left: 100px;
 		width:16vw;
 		height: :100vh;
@@ -43,6 +43,9 @@
 		height: 100vh;
 
 
+	}
+	.introMore{
+		color:grey !important;
 	}
 
 	.container{
@@ -144,7 +147,7 @@
 
 .photo1{
 		vertical-align: middle;
-	    width: 23vw;
+	    width: 20vw;
 	    height: auto;
 	    margin-left: 24vw;
 	    margin-top: 1vh;
@@ -236,7 +239,7 @@ a.introName1{
     transition: width 1s;
 }
 .introName1:hover{
-	font-size: 16px;
+	font-size: 14.5px;
 
 }
 
@@ -248,7 +251,7 @@ img{
 }
 img:hover{
 	opacity: 0.5;
-	width:105%  ;
+	width:102%  ;
 	
 }
 .headerName{
@@ -307,6 +310,10 @@ width:12vw;
 	width:26vw  !important;
 
 }
+.photo1:hover{
+	width:21vw  !important;
+
+}
 
 .pageRolling{
 	margin-top: 9vh;
@@ -339,4 +346,67 @@ width:12vw;
 	font-size: 14.5px;
 
 }
+.hamburger-container{
+    float: right;
+    float: top;
+    z-index: 30;
+    position: relative;
+    padding-right: 7vw;
+    bottom: 2vh;
+    left: 96vw;
+    position: fixed;
+}
 
+#top_bun, #meat, #bottom_bun{
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin:6px 0;
+  position: relative;
+  margin-right: 0vw;
+}
+
+.hamburger-container div{
+  transition: 0.4s;
+}
+
+#overlay{
+  height:0vh;
+  width: 100vw;
+  position:fixed; /* fixed position so if the page is scrollable, this still remains in the same position */
+  z-index: 11; /* z index so its above the main webpage, yet under the hamburger icon */
+  top: 0;
+  left: 0;
+  background-color: #333;
+  opacity: 1;
+  overflow-y: hidden; /*need tis to to prevent seeing the text when the overlay height is 0.*/
+  transition: 0.4s;
+}
+
+
+#overlay nav{
+  margin-top: 25vh;
+}
+
+
+#overlay li{
+  list-style-type: none;
+  display: block;
+  opacity: 100%;
+  text-align: center;
+}
+
+#overlay li a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.background1{
+	    width: 61vw;
+    margin-left: 16vw;
+    margin-top: 2vh;
+}
+.background1:hover{
+	width:68vw;
+	opacity: 1;
+}
